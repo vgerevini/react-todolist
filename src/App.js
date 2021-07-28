@@ -20,7 +20,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h4>My To Do List - Tiago Gerevini Yoshioka</h4>
+        <h4>To-do List ~ Vitor Gerevini Yoshioka</h4>
         <TodoList
           onAddTask={event => this.addTask(event)}
           tasks={this.state.tasks}

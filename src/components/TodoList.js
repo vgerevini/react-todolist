@@ -5,10 +5,10 @@ export class TodoList extends Component {
     return (
       <div>
         <label>
-          Nova tarefa:
+          New:
           <input onKeyUp={this.props.onAddTask} autoFocus type="text" />
         </label>
-        <p>Minhas tarefas:</p>
+        <p>My tasks:</p>
         <ul>
           {this.props.tasks.map((task, index) => {
             return <li key={index}>{task}</li>;
